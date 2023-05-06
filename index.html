@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href=""><img src="resto_logo.png" id="logo" alt=""></a>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <div class="social-icons">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container">
+                <!-- Toggler/collapsibe Button -->
+                <a href="" class="navbar-brand mylogo"><img src="resto_logo.png" id="myimglogo" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Signup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- banner section -->
+    <section id="banner">
+        <h1 class="banner-heading">WELCOME to MYSITE</h1>
+    </section>
+
+    <!-- Menu section -->
+    <section id="chef-section">
+        <div class="container">
+            <h1 class="text-center pt-3 pb-2 mt-3">Meet our chefs</h1>
+            <p class="text-center">THEY ARE NICE A FRIENDLY</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="main-box">
+                        <img src="team-image1.jpg" class="img-fluid" alt="">
+                        <div class="inner-box">
+                            <h3 class="inner-heading">Duis vel lacus id magna mattis vehicula</h3>
+                            <div class="icon">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3>New Catherine</h3>
+                        <h4>KITCHEN OFFICER</h4>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="main-box">
+                        <img src="team-image2.jpg" class="img-fluid" alt="">
+                        <div class="inner-box">
+                            <h3 class="inner-heading">Etiam auctor enim tristique faucibus</h3>
+                            <div class="icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-flickr" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3>New Catherine</h3>
+                        <h4>KITCHEN OFFICER</h4>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="main-box">
+                        <img src="team-image3.jpg" class="img-fluid" alt="">
+                        <div class="inner-box">
+                            <h3 class="inner-heading">Etiam auctor enim tristique faucibus</h3>
+                            <div class="icon">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                                <i class="fa fa-google" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <h3>New Catherine</h3>
+                        <h4>KITCHEN OFFICER</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+
+    <section id="menu-section">
+        <h1 class="text-center pt-3 pb-2 mt-3">Our Menus</h1>
+        <p class="text-center">TEA TIME & DINING</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image1.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>American Breakfast</h3>
+                            <span>Tomato / EGGS / SAUSAGE</span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image2.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>Self-Made Salad</h3>
+                            <span>GREEN / FRUITS / HEALTHY</span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$18</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image3.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>Chinese Noodles</h3>
+                            <span>PEPPER / CHICKEN / VEGETABELS</span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$34</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image4.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>Rice Soup</h3>
+                            <span>GREEN / CHICKEN</span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$28</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image5.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>Deli Burger</h3>
+                            <span>BEEF / FRIED POTATOES </span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$46</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="menu-box">
+                    <img src="menu-image6.jpg" alt="">
+                    <div class="img-info text-center">
+                        <div class="img-item">
+                            <h3>Big Flat Fried</h3>
+                            <span>PEPPER / CRISHPY</span>
+                        </div>
+                        <div class="menu-price">
+                            <h3>$25</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="https://blog.axway.com/wp-content/uploads/2018/08/new-york-map.png" class="img-fluid pt-5"
+                        alt="">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center pt-3 pb-3 mt-3">Contact Us</h1>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Full name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email address" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell about your project" class="form-control" rows="6"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Send Message" class="btn btn-danger form-control">
+                        <!-- <button type="submit"></button> -->
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- footer-section -->
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 mt-5">
+                    <div class="footer-box">
+                        <h4>Find us</h4>
+                        <p class="p-footer">123 nulla a cursus rhoncus,
+                            augue sem viverra 10870
+                            id ultricies sapien
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-3 mt-5">
+                    <div class="footer-box">
+                        <h4>Reservation</h4>
+                        <p class="p-footer">090-080-0650 | 090-070-0430
+
+                            info@company.com
+
+                            LINE: eatery247</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 mt-5">
+                    <div class="footer-box">
+                        <h4>Open Hours</h4>
+                        <p class="p-footer">
+                            Monday: Closed
+                        </p>
+                        <h5> Tuesday to Friday</h5>
+                        <p class="p-footer">7:00 AM - 9:00 PM</p>
+
+                        <h5> Saturday - Sunday</h5>
+                        <p class="p-footer">11:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 mt-5">
+                    <div class="footer-box">
+                        <h4>
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa fa-google" aria-hidden="true"></i>
+                        </h4>
+                        <p class="p-footer">Copyright © 2045
+                            Your Company Name
+
+                            Design: TemplateMo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

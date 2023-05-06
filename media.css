@@ -1,0 +1,27 @@
+@media (max-width: 600px){
+    #logo{
+        display: none;
+    }
+    .mylogo{
+        display: block;
+        
+    }
+    #myimglogo{
+        width: 50px;
+        border-radius: 50%;
+        padding: 5px 0;
+    }
+    #banner{
+        min-height: 350px;
+    }
+    .banner-heading{
+        font-size: 40px;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .inner-box {
+        height: 436px;
+    }
+}
